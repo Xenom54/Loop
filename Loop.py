@@ -1,2 +1,5 @@
-while 1==True:
-    print(0)
+def run_loop(limit):
+    for i in range(limit):
+        print(i)
+
+run_loop(5)
