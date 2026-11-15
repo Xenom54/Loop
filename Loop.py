@@ -1,6 +1,10 @@
-def run_loop(limit):
-    for i in range(limit):
-        print(i)
+def Loop():
+    while 1==True:
+        print(0)
+    return
 
-run_loop(5)
-#you can change the value 5 by whatever number you want
+def loop():
+    Loop()
+    return
+
+loop()
